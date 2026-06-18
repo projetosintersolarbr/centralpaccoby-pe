@@ -1,0 +1,773 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pacco & Paccoby B2B | Importação e Distribuição de Térmicos Premium</title>
+    <!-- Tailwind CSS para um design minimalista e moderno -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- FontAwesome para ícones premium -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- Google Fonts: Inter para alta legibilidade -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    },
+                    colors: {
+                        primary: '#121212',    /* Matte Black */
+                        secondary: '#1c1c1e',  /* Dark Gray */
+                        accent: '#a38f7d',     /* Metallic Bronze */
+                        accentHover: '#8a7560',/* Dark Bronze */
+                        success: '#2e7d32',    /* Deep Emerald */
+                        bgLight: '#fcfcfb'     /* Minimalist Off-White */
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        html { scroll-behavior: smooth; }
+        .custom-scrollbar::-webkit-scrollbar {
+            width: 6px;
+        }
+        .custom-scrollbar::-webkit-scrollbar-track {
+            background: #f1f1f1;
+        }
+        .custom-scrollbar::-webkit-scrollbar-thumb {
+            background: #a38f7d;
+            border-radius: 3px;
+        }
+    </style>
+</head>
+<body class="bg-bgLight text-zinc-800 font-sans antialiased">
+
+    <!-- Topbar B2B de Otimização Fiscal Interestadual -->
+    <div class="bg-primary text-zinc-300 text-[11px] py-2.5 border-b border-zinc-800 tracking-wider">
+        <div class="max-w-7xl mx-auto px-4 flex flex-col md:flex-row justify-between items-center gap-2">
+            <div class="flex items-center gap-4 flex-wrap justify-center">
+                <span><i class="fa-solid fa-gears text-accent mr-1"></i> Logística Integrada SP, PE e PB</span>
+                <span class="hidden sm:inline">|</span>
+                <span><i class="fa-solid fa-truck text-accent mr-1"></i> Benefícios Fiscais Interestaduais (ICMS)</span>
+            </div>
+            <div class="flex items-center gap-4">
+                <span class="font-bold text-white"><i class="fa-solid fa-cart-flatbed-suitcases text-accent mr-1"></i> Faturamento Mínimo B2B: R$ 1.500</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Header Principal -->
+    <header class="bg-white sticky top-0 z-50 shadow-sm">
+        <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
+            <!-- Logo Minimalista -->
+            <div class="flex items-center gap-3">
+                <div class="bg-primary text-white p-2.5 rounded-md flex items-center justify-center">
+                    <i class="fa-solid fa-whiskey-glass text-xl text-accent"></i>
+                </div>
+                <div>
+                    <span class="text-xl font-black tracking-widest text-primary">PACCO</span>
+                    <span class="block text-[9px] uppercase tracking-[0.25em] text-zinc-500 font-semibold">Lineup Importação e Distribuição S.A.</span>
+                </div>
+            </div>
+
+            <!-- Dados S.A. e Status no Header -->
+            <div class="hidden lg:flex flex-col items-end">
+                <span class="text-xs font-semibold text-zinc-500">CNPJ: 17.132.988/0001-45</span>
+                <div class="flex items-center gap-1.5 mt-0.5">
+                    <span class="h-2 w-2 rounded-full bg-success animate-pulse"></span>
+                    <span class="text-[10px] font-bold text-success uppercase tracking-wider">Sociedade Anônima Ativa</span>
+                </div>
+            </div>
+            
+            <a href="#contato" class="bg-primary hover:bg-zinc-850 text-white border border-accent/30 hover:border-accent px-5 py-2.5 rounded-md text-xs font-bold uppercase tracking-wider transition-all flex items-center gap-2">
+                <i class="fa-solid fa-file-pdf"></i> Catálogo B2B
+            </a>
+        </div>
+    </header>
+
+    <!-- Seção de Serviços e Linhas de Atuação em Destaque no Topo -->
+    <section class="bg-zinc-100 border-b border-zinc-200 py-6">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="text-center md:text-left mb-4">
+                <span class="text-xs font-bold text-accent uppercase tracking-widest block mb-1">Canais Oficiais de Atendimento</span>
+                <h2 class="text-base font-extrabold text-primary flex items-center justify-center md:justify-start gap-2">
+                    <i class="fa-solid fa-circle-nodes text-accent"></i> Principais Linhas de Serviço & Suporte Corporativo:
+                </h2>
+            </div>
+            
+            <!-- Grid de Atalhos de Serviços Industriais e Importação -->
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-3">
+                <!-- Serviço 1 -->
+                <a href="#linha-termica" class="bg-white p-4 rounded-lg border border-zinc-200 hover:border-accent hover:shadow-sm transition-all duration-300 group">
+                    <div class="flex items-center gap-3">
+                        <div class="p-2.5 bg-zinc-50 text-zinc-700 rounded-md group-hover:bg-primary group-hover:text-accent transition-all">
+                            <i class="fa-solid fa-droplet text-base"></i>
+                        </div>
+                        <div>
+                            <h4 class="text-xs font-extrabold text-zinc-900 group-hover:text-accent transition-all">Linha Térmica Premium</h4>
+                            <p class="text-[9px] text-zinc-500 mt-0.5">Garrafas, Copos & Potes</p>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Serviço 2 -->
+                <a href="#brindes-corporativos" class="bg-white p-4 rounded-lg border border-zinc-200 hover:border-accent hover:shadow-sm transition-all duration-300 group">
+                    <div class="flex items-center gap-3">
+                        <div class="p-2.5 bg-zinc-50 text-zinc-700 rounded-md group-hover:bg-primary group-hover:text-accent transition-all">
+                            <i class="fa-solid fa-gift text-base"></i>
+                        </div>
+                        <div>
+                            <h4 class="text-xs font-extrabold text-zinc-900 group-hover:text-accent transition-all">Brindes Corporativos</h4>
+                            <p class="text-[9px] text-zinc-500 mt-0.5">Customização a laser de alta precisão</p>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Serviço 3 -->
+                <a href="#distribuicao" class="bg-white p-4 rounded-lg border border-zinc-200 hover:border-accent hover:shadow-sm transition-all duration-300 group">
+                    <div class="flex items-center gap-3">
+                        <div class="p-2.5 bg-zinc-50 text-zinc-700 rounded-md group-hover:bg-primary group-hover:text-accent transition-all">
+                            <i class="fa-solid fa-warehouse text-base"></i>
+                        </div>
+                        <div>
+                            <h4 class="text-xs font-extrabold text-zinc-900 group-hover:text-accent transition-all">Distribuidor Oficial S.A.</h4>
+                            <p class="text-[9px] text-zinc-500 mt-0.5">Distribuição nacional integrada</p>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Serviço 4 -->
+                <a href="#beneficios-fiscais" class="bg-white p-4 rounded-lg border border-zinc-200 hover:border-accent hover:shadow-sm transition-all duration-300 group">
+                    <div class="flex items-center gap-3">
+                        <div class="p-2.5 bg-zinc-50 text-zinc-700 rounded-md group-hover:bg-primary group-hover:text-accent transition-all">
+                            <i class="fa-solid fa-coins text-base"></i>
+                        </div>
+                        <div>
+                            <h4 class="text-xs font-extrabold text-zinc-900 group-hover:text-accent transition-all">Faturamento Multiestado</h4>
+                            <p class="text-[9px] text-zinc-500 mt-0.5">SP, Paraíba e Pernambuco</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Hero Section de Alta Performance B2B -->
+    <section class="relative bg-gradient-to-br from-zinc-950 via-zinc-900 to-zinc-950 text-white overflow-hidden py-16 lg:py-24">
+        <!-- Padrão geométrico suave de fundo -->
+        <div class="absolute inset-0 opacity-5 bg-[radial-gradient(#ffffff_1px,transparent_1px)] [background-size:24px_24px]"></div>
+        
+        <div class="max-w-7xl mx-auto px-4 relative z-10">
+            <div class="grid lg:grid-cols-12 gap-12 items-center">
+                
+                <!-- Cópia Comercial (Copywriting) -->
+                <div class="lg:col-span-7 space-y-6">
+                    <div class="inline-flex items-center gap-2 bg-accent/10 border border-accent/35 text-accent px-4 py-1.5 rounded-full text-xs font-bold tracking-widest uppercase">
+                        <i class="fa-solid fa-certificate"></i> Importadora Oficial &bull; Desde 2012
+                    </div>
+                    
+                    <h1 class="text-3xl md:text-5xl font-black leading-tight tracking-tight text-white">
+                        Produtos térmicos premium <span class="text-accent">Pacco e Paccoby</span> direto para o seu negócio.
+                    </h1>
+                    
+                    <p class="text-zinc-400 text-sm md:text-base max-w-xl leading-relaxed">
+                        Abasteça sua loja física, e-commerce ou planeje os brindes corporativos da sua empresa com a marca líder em garrafas, copos e potes térmicos sustentáveis de alta performance.
+                    </p>
+
+                    <!-- Benefícios Rápidos com Ícones -->
+                    <div class="grid sm:grid-cols-2 gap-4 pt-4">
+                        <div class="flex items-start gap-3">
+                            <span class="text-accent bg-accent/10 p-2 rounded-md mt-0.5"><i class="fa-solid fa-box-open"></i></span>
+                            <div>
+                                <h3 class="font-bold text-xs uppercase tracking-wider text-white">Pedido Mínimo de R$ 1.500</h3>
+                                <p class="text-[11px] text-zinc-400">Flexibilidade para lojas e eventos corporativos.</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start gap-3">
+                            <span class="text-accent bg-accent/10 p-2 rounded-md mt-0.5"><i class="fa-solid fa-truck-fast"></i></span>
+                            <div>
+                                <h3 class="font-bold text-xs uppercase tracking-wider text-white">Presença Logística de S.A.</h3>
+                                <p class="text-[11px] text-zinc-400">Entrega rápida para todo o território nacional.</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start gap-3">
+                            <span class="text-accent bg-accent/10 p-2 rounded-md mt-0.5"><i class="fa-solid fa-percent"></i></span>
+                            <div>
+                                <h3 class="font-bold text-xs uppercase tracking-wider text-white">Margens Altamente Competitivas</h3>
+                                <p class="text-[11px] text-zinc-400">Marca consolidada que atrai tráfego e valor perceptível.</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start gap-3">
+                            <span class="text-accent bg-accent/10 p-2 rounded-md mt-0.5"><i class="fa-solid fa-palette"></i></span>
+                            <div>
+                                <h3 class="font-bold text-xs uppercase tracking-wider text-white">Customização Premium a Laser</h3>
+                                <p class="text-[11px] text-zinc-400">Gravação industrial indelével com a logo de seus parceiros.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Formulário de Leads Focado em Conversão -->
+                <div class="lg:col-span-5" id="contato">
+                    <div class="bg-white rounded-xl p-6 lg:p-8 text-zinc-900 shadow-2xl border border-zinc-100">
+                        <h3 class="text-xl font-black text-primary tracking-tight">Canal de Vendas Corporativo</h3>
+                        <p class="text-xs text-zinc-500 mt-1 mb-6">Preencha seus dados comerciais para receber nossa tabela exclusiva de atacado e opções de personalização.</p>
+                        
+                        <form id="leadForm" onsubmit="handleFormSubmit(event)" class="space-y-4">
+                            <div>
+                                <label class="block text-[10px] font-extrabold text-zinc-700 uppercase tracking-widest mb-1" for="name">Comprador ou Responsável</label>
+                                <input class="w-full bg-zinc-50 border border-zinc-200 rounded-md px-4 py-2.5 text-xs outline-none focus:border-accent focus:bg-white transition-all" type="text" id="name" required placeholder="Ex: Roberto Silva">
+                            </div>
+                            
+                            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                                <div>
+                                    <label class="block text-[10px] font-extrabold text-zinc-700 uppercase tracking-widest mb-1" for="cnpj">CNPJ Corporativo</label>
+                                    <input class="w-full bg-zinc-50 border border-zinc-200 rounded-md px-4 py-2.5 text-xs outline-none focus:border-accent focus:bg-white transition-all" type="text" id="cnpj" required placeholder="17.132.988/0001-45">
+                                </div>
+                                <div>
+                                    <label class="block text-[10px] font-extrabold text-zinc-700 uppercase tracking-widest mb-1" for="whatsapp">WhatsApp Direto</label>
+                                    <input class="w-full bg-zinc-50 border border-zinc-200 rounded-md px-4 py-2.5 text-xs outline-none focus:border-accent focus:bg-white transition-all" type="tel" id="whatsapp" required placeholder="(11) 99999-9999">
+                                </div>
+                            </div>
+
+                            <div>
+                                <label class="block text-[10px] font-extrabold text-zinc-700 uppercase tracking-widest mb-1" for="segment">Interesse Comercial</label>
+                                <select class="w-full bg-zinc-50 border border-zinc-200 rounded-md px-4 py-2.5 text-xs outline-none focus:border-accent focus:bg-white transition-all" id="segment" required>
+                                    <option value="" disabled selected>Escolha sua modalidade de compra</option>
+                                    <option value="revenda">Revenda em Loja Física / E-commerce</option>
+                                    <option value="corporativo">Brindes de Final de Ano / Evento Interno</option>
+                                    <option value="distribuicao">Distribuidor Regional</option>
+                                    <option value="outros">Grande Cotação / Customização Especial</option>
+                                </select>
+                            </div>
+
+                            <button type="submit" class="w-full bg-primary hover:bg-zinc-900 text-white border border-accent/20 py-3 rounded-md font-bold text-xs tracking-widest uppercase transition-all shadow-md transform active:scale-95 flex items-center justify-center gap-2">
+                                <i class="fa-solid fa-paper-plane text-accent"></i> Solicitar Acesso ao Catálogo
+                            </button>
+                            
+                            <p class="text-[10px] text-center text-zinc-400 mt-2">
+                                <i class="fa-solid fa-shield-halved text-accent mr-1"></i> Lineup S.A. &bull; Em total conformidade com a LGPD.
+                            </p>
+                        </form>
+
+                        <!-- Mensagem de Sucesso Amigável sem alert -->
+                        <div id="successMessage" class="hidden text-center py-6 space-y-4">
+                            <div class="mx-auto w-12 h-12 bg-zinc-100 text-accent rounded-full flex items-center justify-center text-xl">
+                                <i class="fa-solid fa-envelope-open-text"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-extrabold text-zinc-900">Solicitação Comercial Enviada!</h4>
+                                <p class="text-xs text-zinc-500 mt-1">Sua requisição foi direcionada à nossa mesa de faturamento. Fale imediatamente pelo WhatsApp abaixo se preferir agilizar.</p>
+                            </div>
+                            <a id="successWhatsappLink" href="#" target="_blank" class="inline-flex items-center gap-2 bg-success hover:bg-emerald-850 text-white px-5 py-2.5 rounded-md text-xs font-bold uppercase tracking-wider transition-all w-full justify-center shadow">
+                                <i class="fa-brands fa-whatsapp text-base"></i> Abrir Chat Corporativo
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Proposta de Valor e Diferenciais Industriais -->
+    <section class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4">
+            
+            <div class="text-center max-w-2xl mx-auto mb-16">
+                <span class="text-accent font-extrabold text-xs tracking-widest uppercase">Tradição & Qualidade Líder</span>
+                <h2 class="text-3xl font-black text-primary tracking-tight mt-1">Por que escolher os térmicos Pacco?</h2>
+                <p class="text-zinc-500 text-sm mt-3">Com mais de 13 anos de inovação em produtos duráveis, a Lineup Importação e Distribuição S.A. entrega materiais térmicos com tecnologia inovadora de dupla camada a vácuo, projetados para durar toda uma vida.</p>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Card 1 -->
+                <div class="bg-zinc-50 p-8 rounded-xl border border-zinc-100 hover:shadow-md transition-all">
+                    <div class="text-accent bg-zinc-100 w-12 h-12 rounded-lg flex items-center justify-center text-lg font-bold mb-6">
+                        <i class="fa-solid fa-fingerprint"></i>
+                    </div>
+                    <h3 class="text-base font-bold text-primary mb-3">Marca Consolidada no Varejo</h3>
+                    <p class="text-xs text-zinc-500 leading-relaxed">Exposição espontânea pesada em mídias sociais e forte apelo de estilo de vida ecológico e saudável. Ter Pacco na gôndola atrai o consumidor qualificado de alto ticket.</p>
+                </div>
+                
+                <!-- Card 2 -->
+                <div class="bg-zinc-50 p-8 rounded-xl border border-zinc-100 hover:shadow-md transition-all">
+                    <div class="text-accent bg-zinc-100 w-12 h-12 rounded-lg flex items-center justify-center text-lg font-bold mb-6">
+                        <i class="fa-solid fa-bolt"></i>
+                    </div>
+                    <h3 class="text-base font-bold text-primary mb-3">Inovação e Performance</h3>
+                    <p class="text-xs text-zinc-500 leading-relaxed">Nossos produtos são desenvolvidos com aço inoxidável 18/8 de alta pureza, garantindo retenção térmica excepcional (até 24 horas gelado e 12 horas quente) livre de condensação externa.</p>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="bg-zinc-50 p-8 rounded-xl border border-zinc-100 hover:shadow-md transition-all">
+                    <div class="text-accent bg-zinc-100 w-12 h-12 rounded-lg flex items-center justify-center text-lg font-bold mb-6">
+                        <i class="fa-solid fa-shuffle"></i>
+                    </div>
+                    <h3 class="text-base font-bold text-primary mb-3">Benefício Fiscal Multiestados</h3>
+                    <p class="text-xs text-zinc-500 leading-relaxed">Graças às nossas operações registradas e IEs ativas em SP, PB e PE, garantimos o menor custo fiscal e facilidades tributárias para faturamento e distribuição no Brasil inteiro.</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Seção Interativa: Simulador de Orçamento de Lote Térmico Premium -->
+    <section class="py-16 bg-primary text-white relative overflow-hidden border-t border-zinc-800">
+        <div class="max-w-4xl mx-auto px-4 relative z-10">
+            <div class="text-center mb-10">
+                <span class="text-accent text-xs font-bold uppercase tracking-widest">Simulador B2B Dinâmico</span>
+                <h2 class="text-2xl md:text-3xl font-black mt-1">Estime o Volume de Compra Corporativa</h2>
+                <p class="text-xs text-zinc-400 mt-2">Escolha entre revenda comercial ou brindes corporativos com customização a laser para conferir descontos progressivos.</p>
+            </div>
+
+            <div class="bg-secondary rounded-xl p-6 md:p-8 border border-zinc-800 shadow-2xl">
+                <div class="grid md:grid-cols-2 gap-8">
+                    <!-- Controles -->
+                    <div class="space-y-6">
+                        <div>
+                            <label class="block text-xs font-bold text-zinc-350 uppercase tracking-wider mb-2">1. Escolha o Perfil Comercial:</label>
+                            <div class="grid grid-cols-2 gap-3">
+                                <button type="button" onclick="setSimulateType('revenda')" id="simTypeRevenda" class="bg-zinc-850 border-2 border-accent text-white px-3 py-2.5 rounded-md text-xs font-bold tracking-wider transition-all flex items-center justify-center gap-1.5">
+                                    <i class="fa-solid fa-store text-accent"></i> Revenda Varejo
+                                </button>
+                                <button type="button" onclick="setSimulateType('corporativo')" id="simTypeCorp" class="bg-zinc-900 border border-zinc-800 text-zinc-400 hover:bg-zinc-850 px-3 py-2.5 rounded-md text-xs font-bold tracking-wider transition-all flex items-center justify-center gap-1.5">
+                                    <i class="fa-solid fa-user-tie text-accent"></i> Customizados
+                                </button>
+                            </div>
+                        </div>
+
+                        <div>
+                            <div class="flex justify-between text-xs font-bold mb-2">
+                                <span class="text-zinc-350 uppercase tracking-wider">2. Ajuste o Investimento Estimado:</span>
+                                <span class="text-accent font-extrabold" id="rangeValue">R$ 5.000</span>
+                            </div>
+                            <input type="range" id="budgetRange" min="1500" max="50000" step="500" value="5000" oninput="updateSimulation()" class="w-full accent-accent bg-zinc-850 h-2 rounded-md appearance-none cursor-pointer">
+                            <div class="flex justify-between text-[10px] text-zinc-500 mt-1">
+                                <span>R$ 1.500 (Mínimo B2B)</span>
+                                <span>R$ 50.000+</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Resultado da Simulação -->
+                    <div class="bg-zinc-950 p-6 rounded-lg border border-zinc-800 flex flex-col justify-between">
+                        <div>
+                            <span class="text-[9px] bg-accent/20 text-accent font-extrabold px-2 py-1 rounded-md uppercase tracking-widest">Condição Industrial Estimada</span>
+                            <div class="mt-4">
+                                <div class="text-3xl font-black text-white" id="discountPercent">10% Off</div>
+                                <p class="text-xs text-zinc-400 mt-1">Margem média bruta estimada para revenda: <strong class="text-accent" id="resMargin">40% a 50%</strong></p>
+                            </div>
+                        </div>
+                        
+                        <div class="border-t border-zinc-800 pt-4 mt-4 space-y-3">
+                            <div class="flex justify-between text-[11px]">
+                                <span class="text-zinc-400">Gravação a Laser:</span>
+                                <span class="font-bold text-white" id="laserDetails">Isenta em Lotes Elevados</span>
+                            </div>
+                            <div class="flex justify-between text-[11px]">
+                                <span class="text-zinc-400">Hub Logístico Otimizado:</span>
+                                <span class="font-bold text-white">SP ou Hub Nordeste</span>
+                            </div>
+                            <a href="#contato" class="block text-center bg-accent hover:bg-accentHover text-white py-2.5 rounded-md text-xs font-bold uppercase tracking-widest transition-all mt-2">
+                                Garantir Esta Condição Comercial
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Prova Social Quantitativa (Estatísticas Corporativas) -->
+    <section class="bg-secondary text-white py-12 border-t border-zinc-800">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+                <!-- Dado 1 -->
+                <div class="space-y-1">
+                    <div class="text-3.5xl md:text-4xl font-black text-accent tracking-tight">13+ Anos</div>
+                    <div class="text-[10px] text-zinc-400 uppercase tracking-widest font-bold">Histórico Operacional</div>
+                </div>
+                <!-- Dado 2 -->
+                <div class="space-y-1">
+                    <div class="text-3.5xl md:text-4xl font-black text-accent tracking-tight">+1.200</div>
+                    <div class="text-[10px] text-zinc-400 uppercase tracking-widest font-bold">Lojas e Redes Abastecidas</div>
+                </div>
+                <!-- Dado 3 -->
+                <div class="space-y-1">
+                    <div class="text-3.5xl md:text-4xl font-black text-accent tracking-tight">4 IEs</div>
+                    <div class="text-[10px] text-zinc-400 uppercase tracking-widest font-bold">Distribuição Otimizada</div>
+                </div>
+                <!-- Dado 4 -->
+                <div class="space-y-1">
+                    <div class="text-3.5xl md:text-4xl font-black text-accent tracking-tight">R$ 450k</div>
+                    <div class="text-[10px] text-zinc-400 uppercase tracking-widest font-bold">Capital Social Integralizado</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Galeria de Produtos e Customização Corporativa -->
+    <section id="linha-termica" class="py-20 bg-zinc-50">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="grid lg:grid-cols-12 gap-12 items-center">
+                
+                <!-- Galeria Simulada com Imagens Premium -->
+                <div class="lg:col-span-6 grid grid-cols-2 gap-4">
+                    <div class="space-y-4">
+                        <div class="h-44 rounded-xl overflow-hidden shadow-sm">
+                            <img class="w-full h-full object-cover transition-transform duration-500 hover:scale-105" src="https://images.unsplash.com/photo-1602143407151-7111542de6e8?auto=format&fit=crop&w=400&q=80" alt="Garrafa Térmica Premium Pacco">
+                        </div>
+                        <div class="h-60 rounded-xl overflow-hidden shadow-sm">
+                            <img class="w-full h-full object-cover transition-transform duration-500 hover:scale-105" src="https://images.unsplash.com/photo-1577937927133-66ef06acdf18?auto=format&fit=crop&w=400&q=80" alt="Estilo de Vida Copos Térmicos">
+                        </div>
+                    </div>
+                    <div class="space-y-4 pt-8">
+                        <div class="h-60 rounded-xl overflow-hidden shadow-sm">
+                            <img class="w-full h-full object-cover transition-transform duration-500 hover:scale-105" src="https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&w=400&q=80" alt="Linha de Hidratação Premium">
+                        </div>
+                        <div class="h-44 rounded-xl overflow-hidden shadow-sm">
+                            <img class="w-full h-full object-cover transition-transform duration-500 hover:scale-105" src="https://images.unsplash.com/photo-1531844251246-9a1bfaae0d76?auto=format&fit=crop&w=400&q=80" alt="Potes e Embalagens Térmicas">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Detalhes de Tradição, Marca e Brindes Corporativos -->
+                <div id="brindes-corporativos" class="lg:col-span-6 space-y-6">
+                    <span class="text-accent font-extrabold text-xs tracking-widest uppercase">Estilo & Sustentabilidade</span>
+                    <h2 class="text-3xl font-black text-primary tracking-tight">O Clássico que Valoriza Sua Marca</h2>
+                    <p class="text-zinc-500 text-sm leading-relaxed">
+                        Fundada em 2012, a **Pacco** e a **Paccoby** são operadas oficialmente sob a chancela da **Lineup Importação e Distribuição S.A.** unindo design estético inconfundível à performance térmica avançada. 
+                    </p>
+                    <p class="text-zinc-500 text-sm leading-relaxed">
+                        Nossos produtos promovem o consumo consciente, eliminando o uso de descartáveis plásticos de forma elegante. Através de nossa divisão corporativa, oferecemos personalização direta em maquinário a laser de ponta na nossa planta de montagem e faturamento.
+                    </p>
+                    
+                    <div class="space-y-3">
+                        <div class="flex items-center gap-3">
+                            <span class="text-accent text-base"><i class="fa-solid fa-circle-check"></i></span>
+                            <span class="text-xs font-bold text-zinc-700">Aço inoxidável 18/8 austenítico (não pega sabor ou odor)</span>
+                        </div>
+                        <div class="flex items-center gap-3">
+                            <span class="text-accent text-base"><i class="fa-solid fa-circle-check"></i></span>
+                            <span class="text-xs font-bold text-zinc-700">Fidelidade absoluta no desenho de sua marca gravada a laser</span>
+                        </div>
+                        <div class="flex items-center gap-3">
+                            <span class="text-accent text-base"><i class="fa-solid fa-circle-check"></i></span>
+                            <span class="text-xs font-bold text-zinc-700">Estoque robusto de rápida reposição para grandes demandas B2B</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Atividades de Registro e Atuação Fiscal das Inscrições Estaduais (SP, PB, PE) -->
+    <section id="beneficios-fiscais" class="py-16 bg-white border-t border-zinc-100">
+        <div class="max-w-7xl mx-auto px-4">
+            
+            <div class="text-center max-w-2xl mx-auto mb-12">
+                <span class="text-accent font-extrabold text-xs tracking-widest uppercase">Estrutura Operacional Avançada</span>
+                <h2 class="text-2xl font-black text-primary tracking-tight mt-1">Conformidade S.A. e Distribuição Regional</h2>
+                <p class="text-zinc-500 text-xs mt-2">Diferente de representantes comuns, atuamos como importador direto sob formato de Sociedade Anônima Fechada, fornecendo a robustez fiscal e segurança contratual que grandes empresas exigem.</p>
+            </div>
+
+            <!-- Grid de Presença Fiscal e Operacional -->
+            <div class="grid md:grid-cols-2 gap-8">
+                <!-- Operações em São Paulo (Matriz) -->
+                <div class="bg-zinc-50 p-6 md:p-8 rounded-xl border border-zinc-200 flex gap-4">
+                    <div class="text-accent text-2.5xl pt-1">
+                        <i class="fa-solid fa-map-location-dot"></i>
+                    </div>
+                    <div>
+                        <span class="bg-zinc-200 text-zinc-700 text-[9px] font-bold uppercase tracking-wider px-2 py-0.5 rounded">Hub Principal &bull; Matriz</span>
+                        <h3 class="font-bold text-base text-primary mt-2">Santana de Parnaíba - SP</h3>
+                        <p class="text-xs text-zinc-500 mt-2 leading-relaxed">Centralizamos o desembaraço aduaneiro, logística de estoque de alta escala e o núcleo operacional paulista em galpão logístico dedicado.</p>
+                        <div class="mt-4 flex flex-wrap gap-2 text-[10px] font-semibold text-zinc-600">
+                            <span class="bg-zinc-200 px-2.5 py-1 rounded">IE Principal: 120.370.505.112</span>
+                            <span class="bg-zinc-200 px-2.5 py-1 rounded">IE Aux: 623.374.445.111</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Hub Logístico Nordeste (PB & PE) -->
+                <div class="bg-zinc-50 p-6 md:p-8 rounded-xl border border-zinc-200 flex gap-4">
+                    <div class="text-accent text-2.5xl pt-1">
+                        <i class="fa-solid fa-arrows-split-up-and-left"></i>
+                    </div>
+                    <div>
+                        <span class="bg-accent/10 text-accent text-[9px] font-bold uppercase tracking-wider px-2 py-0.5 rounded">Hub Regional Nordeste</span>
+                        <h3 class="font-bold text-base text-primary mt-2">Distribuição Estratégica Regional</h3>
+                        <p class="text-xs text-zinc-500 mt-2 leading-relaxed">Inscrições Estaduais dedicadas na Paraíba e Pernambuco para otimizar os fretes e reduzir custos de ICMS interestadual em pedidos para a região Nordeste.</p>
+                        <div class="mt-4 flex flex-wrap gap-2 text-[10px] font-semibold text-zinc-600">
+                            <span class="bg-zinc-200 px-2.5 py-1 rounded">IE PB: 16.905.665-1</span>
+                            <span class="bg-zinc-200 px-2.5 py-1 rounded">IE PE: 1297582-64</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Demais Detalhes Societários -->
+            <div class="grid md:grid-cols-2 gap-8 mt-8">
+                <!-- Informações do Registro Corporativo -->
+                <div class="bg-zinc-50 p-6 md:p-8 rounded-xl border border-zinc-200 flex gap-4">
+                    <div class="text-accent text-2.5xl pt-1">
+                        <i class="fa-solid fa-address-card"></i>
+                    </div>
+                    <div>
+                        <span class="bg-zinc-200 text-zinc-700 text-[9px] font-bold uppercase tracking-wider px-2 py-0.5 rounded">Ficha Cadastral</span>
+                        <h3 class="font-bold text-base text-primary mt-2">Dados do Quadro de Administração</h3>
+                        <p class="text-xs text-zinc-500 mt-2 leading-relaxed">Companhia de capital fechado sólido estruturado com Capital Social Integralizado de **R$ 450.000,00**. Prontidão para auditorias de compliance e fornecimento corporativo em contratos internacionais.</p>
+                        <p class="text-[10px] font-semibold text-zinc-600 mt-3">S.A. devidamente auditada com cadastro ativo na Receita Federal.</p>
+                    </div>
+                </div>
+
+                <!-- Compromisso Ecológico & ESG -->
+                <div class="bg-zinc-50 p-6 md:p-8 rounded-xl border border-zinc-200 flex gap-4">
+                    <div class="text-accent text-2.5xl pt-1">
+                        <i class="fa-solid fa-seedling"></i>
+                    </div>
+                    <div>
+                        <span class="bg-emerald-50 text-success text-[9px] font-bold uppercase tracking-wider px-2 py-0.5 rounded">ESG e Responsabilidade</span>
+                        <h3 class="font-bold text-base text-primary mt-2">Compromisso de Zero Descarte</h3>
+                        <p class="text-xs text-zinc-500 mt-2 leading-relaxed">Cada copo térmico Pacco adquirido no atacado contribui para diminuir a pegada de carbono global de seus parceiros. Promovemos projetos sustentáveis de compensação de resíduos de alumínio.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- FAQ - Dúvidas Comuns de Revendedores e Compras Corporativas -->
+    <section class="py-16 bg-zinc-50 border-t border-zinc-100">
+        <div class="max-w-4xl mx-auto px-4">
+            <div class="text-center mb-12">
+                <span class="text-accent text-xs font-bold uppercase tracking-widest">Dúvidas Frequentes</span>
+                <h2 class="text-2xl font-black text-primary mt-1">Perguntas B2B Comuns</h2>
+            </div>
+
+            <div class="space-y-4">
+                <!-- FAQ Item 1 -->
+                <div class="bg-white p-5 rounded-lg border border-zinc-200 shadow-sm">
+                    <button class="w-full text-left flex justify-between items-center font-bold text-sm text-primary" onclick="toggleFaq(1)">
+                        <span>Qual o volume de pedido mínimo para revendedores?</span>
+                        <i id="faq-icon-1" class="fa-solid fa-chevron-down text-accent"></i>
+                    </button>
+                    <div id="faq-content-1" class="hidden mt-3 text-xs text-zinc-500 leading-relaxed border-t border-zinc-100 pt-3">
+                        Nosso faturamento comercial mínimo em modalidade de atacado B2B é de **R$ 1.500,00**. Isso se aplica para pedidos compostos por qualquer variação de produtos térmicos da nossa linha (garrafas, copos, acessórios).
+                    </div>
+                </div>
+
+                <!-- FAQ Item 2 -->
+                <div class="bg-white p-5 rounded-lg border border-zinc-200 shadow-sm">
+                    <button class="w-full text-left flex justify-between items-center font-bold text-sm text-primary" onclick="toggleFaq(2)">
+                        <span>A Lineup S.A. realiza faturamento fora do estado de São Paulo?</span>
+                        <i id="faq-icon-2" class="fa-solid fa-chevron-down text-accent"></i>
+                    </button>
+                    <div id="faq-content-2" class="hidden mt-3 text-xs text-zinc-500 leading-relaxed border-t border-zinc-100 pt-3">
+                        Sim. Possuímos Inscrições Estaduais ativas no estado de **São Paulo (duas IEs)**, na **Paraíba (IE: 16.905.665-1)** e em **Pernambuco (IE: 1297582-64)**. Através desta malha fiscal, faturamos direto e otimizamos o recolhimento tributário para todo o Brasil.
+                    </div>
+                </div>
+
+                <!-- FAQ Item 3 -->
+                <div class="bg-white p-5 rounded-lg border border-zinc-200 shadow-sm">
+                    <button class="w-full text-left flex justify-between items-center font-bold text-sm text-primary" onclick="toggleFaq(3)">
+                        <span>Como funciona a customização a laser para brindes de grandes empresas?</span>
+                        <i id="faq-icon-3" class="fa-solid fa-chevron-down text-accent"></i>
+                    </button>
+                    <div id="faq-content-3" class="hidden mt-3 text-xs text-zinc-500 leading-relaxed border-t border-zinc-100 pt-3">
+                        Oferecemos maquinário a laser de altíssima fidelidade. Você nos envia o arquivo vetorial do logotipo e nós geramos os lotes com gravação precisa de alta qualidade. Os volumes mínimos para customização corporativa dependem do portfólio escolhido e podem ser consultados preenchendo o formulário de cotação.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Final Corporativo -->
+    <section class="bg-primary py-16 text-white text-center border-t border-zinc-800">
+        <div class="max-w-4xl mx-auto px-4 space-y-6">
+            <h2 class="text-2xl md:text-3.5xl font-black tracking-tight">Precisa de um atendimento ágil via mesa comercial?</h2>
+            <p class="text-sm text-zinc-400 max-w-xl mx-auto">
+                Tire dúvidas de grade de produtos disponíveis, prazos de entrega regional e receba nossa simulação de lote customizado diretamente no WhatsApp de nossa central paulista.
+            </p>
+            <div class="pt-4 flex flex-col sm:flex-row justify-center items-center gap-4">
+                <a href="https://wa.me/551129797360?text=Ol%C3%A1%21+Vim+da+p%C3%A1gina+corporativa+da+Pacco+B2B+e+gostaria+de+solicitar+a+tabela+de+pre%C3%A7os+de+atacado." class="inline-flex items-center gap-2.5 bg-white text-primary hover:bg-zinc-100 px-8 py-4 rounded-md font-extrabold text-xs tracking-wider uppercase shadow-2xl transition-all" target="_blank">
+                    <i class="fa-brands fa-whatsapp text-base"></i> Entrar em contato via WhatsApp
+                </a>
+                <a href="#contato" class="inline-flex items-center gap-1.5 border border-zinc-700 hover:border-zinc-500 px-6 py-4 rounded-md font-extrabold text-xs tracking-wider uppercase transition-all">
+                    Solicitar via E-mail corporativo
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Botão Flutuante de WhatsApp Comercial -->
+    <a href="https://wa.me/551129797360?text=Ol%C3%A1%21+Vim+da+p%C3%A1gina+corporativa+da+Pacco+B2B+e+gostaria+de+solicitar+a+tabela+de+pre%C3%A7os+de+atacado." class="fixed bottom-6 right-6 bg-success hover:bg-emerald-800 text-white w-14 h-14 rounded-full flex items-center justify-center text-2xl shadow-2xl z-50 transition-all hover:scale-110" target="_blank" title="Fale comercialmente pelo WhatsApp">
+        <i class="fa-brands fa-whatsapp"></i>
+    </a>
+
+    <!-- Rodapé Corporativo e Termos de Conformidade Google Ads -->
+    <footer class="bg-zinc-950 text-zinc-400 text-xs py-16 border-t border-zinc-900">
+        <div class="max-w-7xl mx-auto px-4">
+            
+            <div class="grid md:grid-cols-12 gap-12 border-b border-zinc-900 pb-12 mb-12">
+                <!-- Coluna 1: Dados Cadastrais -->
+                <div class="md:col-span-5 space-y-4">
+                    <div class="flex items-center gap-3">
+                        <div class="bg-white text-primary p-2 rounded flex items-center justify-center">
+                            <i class="fa-solid fa-whiskey-glass text-xs text-accent"></i>
+                        </div>
+                        <span class="text-xs font-black tracking-widest text-white uppercase">PACCO / LINEUP S.A.</span>
+                    </div>
+                    <p class="leading-relaxed text-zinc-500 text-[11px]">
+                        **Lineup Importacao e Distribuicao SA** &bull; CNPJ: 17.132.988/0001-45<br>
+                        Sua parceira ideal em importação direta, hidratação de alta rotatividade e distribuição corporativa interestadual fundada em 2012.
+                    </p>
+                    <p class="text-[9px] text-zinc-600">
+                        Regime de Tributação: Lucro Presumido / Lucro Real (S.A. Fechada). Capital Social integralizado de R$ 450.000,00.
+                    </p>
+                </div>
+
+                <!-- Coluna 2: Contatos e Atendimento -->
+                <div class="md:col-span-3 space-y-3">
+                    <h4 class="font-extrabold text-white text-[11px] uppercase tracking-widest">Canais Corporativos</h4>
+                    <ul class="space-y-2 text-zinc-500 text-[11px]">
+                        <li><i class="fa-solid fa-phone text-accent mr-1.5"></i> (11) 2979-7360</li>
+                        <li><i class="fa-solid fa-phone text-accent mr-1.5"></i> (11) 2536-1104</li>
+                        <li><i class="fa-solid fa-envelope text-accent mr-1.5"></i> faturas@paccoby.com.br</li>
+                    </ul>
+                </div>
+
+                <!-- Coluna 3: Endereço -->
+                <div class="md:col-span-4 space-y-3">
+                    <h4 class="font-extrabold text-white text-[11px] uppercase tracking-widest">Planta de Importação & Matriz</h4>
+                    <p class="leading-relaxed text-[11px] text-zinc-500">
+                        Estrada Tenente Marques, 1818<br>
+                        Bloco A Galpao02 &bull; Sítio Outra Banda<br>
+                        CEP: 06534-030 &bull; Santana de Parnaíba - SP
+                    </p>
+                    <a href="https://www.google.com/maps/search/?api=1&query=Estrada+Tenente+Marques+1818+Santana+de+Parnaiba+SP" target="_blank" class="inline-flex items-center gap-1.5 text-accent hover:text-white font-bold mt-1 transition-all">
+                        <i class="fa-solid fa-map-location-dot text-xs"></i> Localizar no Google Maps
+                    </a>
+                </div>
+            </div>
+
+            <!-- Rodapé e Termos de Conformidade Google Ads -->
+            <div class="flex flex-col md:flex-row justify-between items-center gap-6">
+                <p class="text-center md:text-left text-[11px] text-zinc-600">
+                    &copy; 2026 Lineup Importacao e Distribuicao SA. Todos os direitos reservados. CNPJ: 17.132.988/0001-45.
+                </p>
+                
+                <!-- Links Obrigatórios de Política de Privacidade de Landing Pages para Google Ads -->
+                <div class="flex items-center gap-4 flex-wrap justify-center text-[11px] text-zinc-600">
+                    <a href="#contato" class="hover:text-zinc-400 transition-all">Política de Privacidade</a>
+                    <span>|</span>
+                    <a href="#contato" class="hover:text-zinc-400 transition-all">Termos de Uso</a>
+                    <span>|</span>
+                    <a href="#contato" class="hover:text-zinc-400 transition-all">Política de Cookies</a>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+
+    <!-- Script de Interações e Dinâmica da Landing Page -->
+    <script>
+        // Configuração de dados de simulação
+        let currentType = 'revenda';
+
+        function setSimulateType(type) {
+            currentType = type;
+            const btnRevenda = document.getElementById('simTypeRevenda');
+            const btnCorp = document.getElementById('simTypeCorp');
+            
+            if (type === 'revenda') {
+                btnRevenda.className = 'bg-zinc-850 border-2 border-accent text-white px-3 py-2.5 rounded-md text-xs font-bold tracking-wider transition-all flex items-center justify-center gap-1.5';
+                btnCorp.className = 'bg-zinc-900 border border-zinc-800 text-zinc-400 hover:bg-zinc-850 px-3 py-2.5 rounded-md text-xs font-bold tracking-wider transition-all flex items-center justify-center gap-1.5';
+            } else {
+                btnCorp.className = 'bg-zinc-850 border-2 border-accent text-white px-3 py-2.5 rounded-md text-xs font-bold tracking-wider transition-all flex items-center justify-center gap-1.5';
+                btnRevenda.className = 'bg-zinc-900 border border-zinc-800 text-zinc-400 hover:bg-zinc-850 px-3 py-2.5 rounded-md text-xs font-bold tracking-wider transition-all flex items-center justify-center gap-1.5';
+            }
+            updateSimulation();
+        }
+
+        function updateSimulation() {
+            const range = document.getElementById('budgetRange');
+            const value = parseInt(range.value);
+            
+            // Formatando o valor em Real
+            document.getElementById('rangeValue').innerText = value.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' });
+            
+            let discount = '5%';
+            let margin = '35% a 40%';
+            let laser = 'Laser Sob Cotação';
+            
+            if (value >= 25000) {
+                discount = '20% OFF';
+                margin = '45% a 55%';
+                laser = 'Gravação Isenta (Lote Especial)';
+            } else if (value >= 10000) {
+                discount = '15% OFF';
+                margin = '42% a 50%';
+                laser = '50% de Desconto na Gravação';
+            } else if (value >= 5000) {
+                discount = '10% OFF';
+                margin = '38% a 45%';
+                laser = 'Gravação Promocional B2B';
+            }
+            
+            if (currentType === 'corporativo') {
+                margin = 'Customização Exclusiva';
+            }
+            
+            document.getElementById('discountPercent').innerText = discount;
+            document.getElementById('resMargin').innerText = margin;
+            document.getElementById('laserDetails').innerText = laser;
+        }
+
+        // Lógica de FAQ
+        function toggleFaq(index) {
+            const content = document.getElementById(`faq-content-${index}`);
+            const icon = document.getElementById(`faq-icon-${index}`);
+            
+            if (content.classList.contains('hidden')) {
+                content.classList.remove('hidden');
+                icon.classList.add('rotate-180');
+            } else {
+                content.classList.add('hidden');
+                icon.classList.remove('rotate-180');
+            }
+        }
+
+        // Submissão de Formulário amigável (Google Ads compliant)
+        function handleFormSubmit(event) {
+            event.preventDefault();
+            const name = document.getElementById('name').value;
+            const cnpj = document.getElementById('cnpj').value;
+            const whatsapp = document.getElementById('whatsapp').value;
+            const segment = document.getElementById('segment').value;
+            
+            // Formatando o link de WhatsApp para redirecionamento após preenchimento
+            const textMsg = `Olá! Meu nome é ${encodeURIComponent(name)}, falo em nome da empresa CNPJ ${encodeURIComponent(cnpj)}. Tenho interesse comercial no formato ${encodeURIComponent(segment)} para produtos Pacco / Paccoby!`;
+            const waUrl = `https://wa.me/551129797360?text=${textMsg}`;
+            
+            // Mostrando estado de sucesso (sem usar alert de sistema)
+            document.getElementById('leadForm').classList.add('hidden');
+            const successDiv = document.getElementById('successMessage');
+            successDiv.classList.remove('hidden');
+            document.getElementById('successWhatsappLink').setAttribute('href', waUrl);
+        }
+
+        // Carregamento Inicial do Simulador
+        window.onload = function() {
+            updateSimulation();
+        }
+    </script>
+</body>
+</html>
